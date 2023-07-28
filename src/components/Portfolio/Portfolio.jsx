@@ -1,6 +1,6 @@
 const Portfolio = () => {
     return (
-        <div>
+        <div className="text-3xl font-bold underline">
         Portfolio tab
         </div>
     )
