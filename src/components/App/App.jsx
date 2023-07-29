@@ -4,6 +4,7 @@ import Programming from '../Programming/Programming';
 import './App.css';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
           </div>
           <div onClick={() => window.open("https://www.linkedin.com/feed/", "_blank")}>
             <LinkedInIcon className="cursor-pointer hover:scale-105" />
+            </div>
+          <div onClick={() => window.open("https://twitter.com/home", "_blank")}>
+            <TwitterIcon className="cursor-pointer hover:scale-105" />
           </div>
         </div>
       </div>
