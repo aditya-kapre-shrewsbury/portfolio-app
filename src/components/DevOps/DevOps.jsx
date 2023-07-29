@@ -6,7 +6,7 @@ const DevOps = () => {
 
     return (
         <div id="devops">
-            DevOps Tab
+            <div className="text-xl font-semibold leading-7 text-white-950 m-5">DevOps</div>
             <Docker />
             <AWS />
             <Gradle />

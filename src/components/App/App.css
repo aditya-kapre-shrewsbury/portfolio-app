@@ -37,6 +37,10 @@
   }
 }
 
-.back {
+.pa-back {
   background-color: #333640;
+}
+
+.pa-justify {
+  text-align: justify
 }

@@ -1,7 +1,9 @@
 const Portfolio = () => {
     return (
         <div id="about">
-            <p>
+            <div>
+                <div className="text-xl font-semibold leading-7 text-white-950 m-5">About Me</div>
+                <div className="pa-justify m-10 mt-5">
                 Based in Shrewsbury, Massachusetts, Aditya Kapre is a software engineer at
                 Chewy. Aditya plays a major role in improving recommendations and
                 personalization API using AWS. Through his commitment to this role, he has
@@ -20,9 +22,11 @@ const Portfolio = () => {
                 summer coding internship at Google as a student developer. He worked for
                 the JPF Team at NASA ARC on building Visual Java Path Finder using JIVE
                 (Java Interactive Visual Environment).
-            </p>
+                </div>
+            </div>
             <p>
-                Aditya worked as a Senior Software Engineer at eClinicalWorks, helping with
+                <div className="pa-justify m-10">
+                    Aditya worked as a Senior Software Engineer at eClinicalWorks, helping with
                 developing, coding and testing software for eClinicalWorks' EMR (Electronic
                 Medical Record) product. He also assisted with developing HEALOW (Health
                 And Online Wellness) platform with a focus on tracking patients' health at
@@ -35,14 +39,16 @@ const Portfolio = () => {
                 backend APIs in the payments team to facilitate peer to peer money
                 movement on Venmo platform. This included balance money transfers, bank
                 transfers, transfers via credit and debit cards.
+                </div>
             </p>
             <p>
-                A self-described life long learner, Aditya is a Software Developer who is
-                committed to achievement and details. He has spent the last 6 years creating
-
-                and developing software for some of the most prominent companies in the
-                world. He is currently most passionate about the work he is doing to create
-                the best user experience possible.
+                <div className="pa-justify m-10">
+                    A self-described life long learner, Aditya is a Software Developer who is
+                    committed to achievement and details. He has spent the last 6 years creating
+                    and developing software for some of the most prominent companies in the
+                    world. He is currently most passionate about the work he is doing to create
+                    the best user experience possible.      
+                </div> 
             </p>
         </div>
     )
