@@ -5,7 +5,7 @@ import Gradle from "./Gradle/Grade"
 const DevOps = () => {
 
     return (
-        <div>
+        <div id="devops">
             DevOps Tab
             <Docker />
             <AWS />

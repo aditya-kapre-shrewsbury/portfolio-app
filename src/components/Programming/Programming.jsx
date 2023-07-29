@@ -8,7 +8,7 @@ import SpringBoot from "./SpringBoot/SpringBoot"
 
 const Programming = () => {
     return (
-        <div>
+        <div id="#programming">
             Programming Tab
             <Java />
             <Kotlin />

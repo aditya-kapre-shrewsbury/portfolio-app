@@ -25,3 +25,6 @@ npm run deploy
 
 # Tailwind CSS with React
 https://tailwindcss.com/docs/guides/create-react-app
+
+# MUI (Material UI) for React
+https://mui.com/material-ui/getting-started/
