@@ -52,3 +52,7 @@
 .gist .blob-code {
   color: #bfcdcf !important;
 }
+
+.programming-list {
+  list-style-type: square;
+}
