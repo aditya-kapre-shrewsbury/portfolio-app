@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="page">
     <div className="flex flex-row overflow-hidden">
-      <div className="flex-none bg-slate-900 h-screen min-w-[25%] fixed text-white">
+      <div className="bg-slate-900 h-screen min-w-[25%] fixed text-white">
           <div className="lx ut yr aat adj ajr ark">
             <nav className="flex text-white text-lg mt-10 flex-col align-middle w-full gap-5 overflow-hidden">
             <ul className="lx um yr aav m-10">
