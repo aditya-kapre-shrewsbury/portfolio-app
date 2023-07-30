@@ -39,7 +39,7 @@ function App() {
         </div>
       </div>
       <div className="pl-[25%] w-screen pa-back text-white">
-          <div className="min-h-screen grid grid-cols-1 gap-7 name content-center text-center">
+          <div className="min-h-screen text-center">
             <Portfolio />
             <Programming />
             <DevOps />
