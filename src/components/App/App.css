@@ -46,5 +46,9 @@
 }
 
 .gist .blob-wrapper table {
-  background-color: #a6b1d2;
+  background-color: #12141d;
+}
+
+.gist .blob-code {
+  color: #bfcdcf !important;
 }
