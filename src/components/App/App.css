@@ -44,3 +44,7 @@
 .pa-justify {
   text-align: justify
 }
+
+.gist .blob-wrapper table {
+  background-color: #a6b1d2;
+}
