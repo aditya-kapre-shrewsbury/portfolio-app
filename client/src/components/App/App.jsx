@@ -1,6 +1,7 @@
 import DevOps from '../DevOps/DevOps';
 import Portfolio from '../Portfolio/Portfolio';
 import Programming from '../Programming/Programming';
+import Other from '../Other/Other';
 import './App.css';
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn"
@@ -20,10 +21,22 @@ function App() {
                   <ul className="programming-list">
                     <li><a href="#java">Java</a></li>
                     <li><a href="#springboot">Spring Boot</a></li>
+                    <li><a href="#react"> React</a></li>
                     <li><a href="#javascript">JavaScript</a></li>
                   </ul>
-                </li>
-              <li className="m-5"><a href="#devops">DevOps</a></li>
+              </li>
+              <li className="m-5">
+                <a href="#devops">DevOps</a>
+                <ul className="programming-list">
+                  <li><a href="#gradle">Gradle</a></li>
+                </ul>
+              </li>
+              <li className="m-5">
+                <a href="#other">Other</a>
+                <ul className="programming-list">
+                  <li><a href="#rest">REST</a></li>
+                </ul>
+              </li>
             </ul>
         </nav>
         </div>
@@ -45,6 +58,7 @@ function App() {
             <Portfolio />
             <Programming />
             <DevOps />
+            <Other />
           </div>
       </div>
     </div>
