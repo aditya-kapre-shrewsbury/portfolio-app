@@ -6,6 +6,10 @@ router.get("/", function(req, res, next) {
 });
 
 router.get("/say", function (req, res, next) {
-    res.send("Hello world!");
+    const resData = {
+        message: "Hello world"
+    }
+    res.setHeader('Content-Type', 'application/json');
+    res.send(JSON.stringify(resData));
 });
 module.exports = router;
