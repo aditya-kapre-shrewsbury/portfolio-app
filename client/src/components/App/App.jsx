@@ -28,7 +28,8 @@ function App() {
               <li className="m-5">
                 <a href="#devops">DevOps</a>
                 <ul className="programming-list">
-                  <li><a href="#gradle">Gradle</a></li>
+                    <li><a href="#gradle">Gradle</a></li>
+                    <li><a href="#docker">Docker</a></li>
                 </ul>
               </li>
               <li className="m-5">
